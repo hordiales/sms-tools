@@ -1,6 +1,9 @@
-sms-tools
-========= 
+sms-tools-lite
+==============
+SMS (Spectral Modelling Synthesis) lite repo, only the library without examples, GUI's or notebooks
 
+
+Original is from MTG: https://github.com/MTG/sms-tools
 
 Sound analysis/synthesis tools for music applications written in python (with a bit of C) plus complementary lecture materials.
 
@@ -21,31 +24,7 @@ then, for using the tools, after downloading the whole package, you need to comp
 
 <code>$ python compileModule.py build_ext --inplace </code>
 
-The basic sound analysis/synthesis functions, or models, are in the directory <code>software/models</code> and there is a graphical interface and individual example functions in <code>software/models_interface</code>. To execute the models GUI you have to go to the directory <code>software/models_interface</code> and type: 
-
-<code>$ python models_GUI.py </code>
-
-To execute the transformations GUI that calls various sound transformation functions go to the directory <code>software/transformations_interface</code> and type: 
-
-<code>$ python transformations_GUI.py </code>
-
-To modify the existing code, or to create your own using some of the functions, we recommend to use the <code>workspace</code> directory. Typically you would copy a file from <code>software/models_interface</code> or from <code>software/transformations_interface</code> to that directory, modify the code, and execute it from there (you will have to change some of the paths inside the files). 
-
-Jupyter Notebook instructions
--------
-
-Install Jupyter Notebook according to it's instructions https://jupyter.org/install
-
-Start up jupyter notebook
-
-<code>$ jupyter notebook</code> 
-
-Follow instructions appearing in the console regarding navigating your browser to the notebook
-
-Content
--------
-
-All the code is in the <code> software </code> directory, with subdirectories for the models, the transformations, and the interfaces. The lecture materials are in the <code>lectures</code> directory, the assignments related to the lectures in the  <code>assignments</code> directory, and the sounds used for the examples and coming from <code>http://freesound.org</code> are in the <code>sounds</code> directory.
+The basic sound analysis/synthesis functions, or models, are in the directory <code>software/models</code>.
 
 License
 -------
